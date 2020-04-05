@@ -1,0 +1,101 @@
+body
+{
+  background: black;
+}
+
+.top div{
+  display:inline-block;
+  float:left;
+}
+
+.top
+{
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+
+.html5-icon{
+  width:45px;
+  height:48px;
+  font-size: 35px;
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+}
+
+.dots-icon{
+  width:45px;
+  height:48px;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.name{
+  width:400px;
+  height:48px;
+}
+
+.super{
+  font-size: 15px;
+  vertical-align: sub;
+  width:400px;
+  height:24px;
+  color: black;
+}
+
+.sub{
+  font-size: 15px;
+  vertical-align: super;
+  width:400px;
+  height:24px;
+  color: black;
+}
+
+.post
+{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%,-50%);
+  width: 500px;
+  height: 700px;
+  background: white;
+}
+
+p
+{
+  margin: 0px;
+}
+
+img
+{
+  width: 500px;
+  height: 400px;
+}
+
+.image-footer
+{
+  overflow: hidden;
+  font-size: 35px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.image-footer .left-icons
+{
+  float: left;
+}
+
+.image-footer .right-icon
+{
+  float: right;
+  margin-right: 15px;
+}
+
+.likes, .caption
+{
+  margin:20px;
+}
